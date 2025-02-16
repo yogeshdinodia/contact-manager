@@ -13,14 +13,14 @@ A Laravel-based CRUD application to manage contacts with features like soft dele
 ## Installation Guide
 
 ### Step 1: Clone the Repository
-1. cd contact-management
+=> cd contact-manager
 
 ### Step 2: Install Dependencies
-1. composer install
+=> composer install
 
 ### Step 3: Configure Environment
-1. cp .env.example .env
-2. php artisan key:generate
+=> cp .env.example .env
+=> php artisan key:generate
 
 ### Step 4: Run Migrations
-1. php artisan migrate
+=> php artisan migrate
