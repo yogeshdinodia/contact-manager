@@ -1,0 +1,7 @@
+body{ font-family: 'Arial', sans-serif; background-color: #f8f9fa; }
+.container-fluid{ padding: 20px; }
+.custom-card{ background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); }
+.btn-custom{ border-radius: 5px; }
+.table th{ background: #007bff !important; color: white !important; }
+.table td{ vertical-align: middle; }
+.alert-dismissible .btn-close{ position: absolute; right: 10px; }
