@@ -12,6 +12,9 @@
         <form action="{{ route('contacts.importXML') }}" method="POST" enctype="multipart/form-data" class="mb-3">
             @csrf
             <input type="file" name="xml_file" class="form-control" required>
+
+            <a href="{{ asset('sample/contacts.xml') }}" download="" class="btn btn-primary">Download Sample</a>
+
             <button type="submit" class="btn btn-success mt-2">
                 <i class="fa-solid fa-upload"></i> Import XML
             </button>
